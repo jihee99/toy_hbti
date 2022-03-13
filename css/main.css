@@ -8,3 +8,8 @@
 p{
     font-size: 16px;
 }
+
+.start{
+    border: 1px solid rgb(156, 109, 153);
+    color: rgb(156, 109, 153);
+}

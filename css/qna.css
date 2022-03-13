@@ -21,7 +21,14 @@
 }
 
 .answerList:hover, .answerList:focus{
-  background-color: palevioletred;
+  background-color: rgb(156, 118, 154);
+  /*
+  background: #ab7aac;
+  background: -moz-linear-gradient(-45deg,  #ab7aac 0%, #a55aa4 47%, #854481 100%);
+  background: -webkit-linear-gradient(-45deg,  #ab7aac 0%, #a55aa4 47%,#854481 100%);
+  background: linear-gradient(135deg,  #ab7aac 0%,#a55aa4 47%,#854481 100%); 
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ab7aac', endColorstr='#854481',GradientType=1 );
+  */
   color: white;
 }
 
@@ -36,10 +43,11 @@
   height: 100%;
   width: 90%;
   border-radius: 20px;
-  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#efc5ca+0,d24b5a+50,ba2737+51,f18e99+100;Red+Gloss+%233 */
-  background: #efc5ca; /* Old browsers */
-  background: -moz-linear-gradient(top,  #efc5ca 0%, #d24b5a 50%, #ba2737 51%, #f18e99 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(top,  #efc5ca 0%,#d24b5a 50%,#ba2737 51%,#f18e99 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom,  #efc5ca 0%,#d24b5a 50%,#ba2737 51%,#f18e99 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#efc5ca', endColorstr='#f18e99',GradientType=0 ); /* IE6-9 */
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#cb60b3+0,c146a1+50,a80077+51,db36a4+100;Pink+Gloss */
+  background: #cb60b3; /* Old browsers */
+  background: -moz-linear-gradient(top,  #cb60b3 0%, #c146a1 50%, #a80077 51%, #db36a4 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  #cb60b3 0%,#c146a1 50%,#a80077 51%,#db36a4 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  #cb60b3 0%,#c146a1 50%,#a80077 51%,#db36a4 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cb60b3', endColorstr='#db36a4',GradientType=0 ); /* IE6-9 */
+
 }

@@ -22,22 +22,23 @@
 }
 
 .kakao{
-    color: white;
+    color: #000000;
     background-color: #FEE500;
     border: 0px;
-    border-radius: 20px;
+    border-radius: 15px;
     font-size: 16px;
 }
 
 .kakao:hover, .kakao:focus{
     background-color: whitesmoke;
-    color: #FEE500;
+    color: #000000;
+    border: 1.4px solid #FEE500;
 }
 
 .goHome{
     background-color: rgb(184, 140, 181);
     border: 0px;
-    border-radius: 20px;
+    border-radius: 15px;
     font-size: 16px;
 }
 
