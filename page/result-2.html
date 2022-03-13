@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="jihee">
+        <meta name="keywords" content="향으로 보는 성격 유형">
+        <meta name="description" content="향으로 보는 성격 유형">
+
+        <!-- sns share -->
+        <meta property="og:url" content="" />
+        <meta property="og:title" content="향으로 보는 성격 유형:향BTI" />
+        <meta property="og:type" content="website" />
+        <meta property="og:img" content="../img/share.png" />
+        <meta property="og:description" content="향으로 보는 성격 유형:향BTI" />
+        <!-- favicon -->
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <link rel="apple-touch-icon-precomposed" href="../img/favicon.ico">
+        
+        <title>향으로 보는 성격 유형:향BTI</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../css/default.css">
+        <link rel="stylesheet" href="../css/result.css">
+        <script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
+        <script>
+            Kakao.init('fe3fef096f069adeb71c6b46bd6acc82');
+            Kakao.isInitialized();
+        </script>
+    </head>
+<body>
+    <section id="shareResult" class="mx-auto my-5 py-5 px-3">
+        <h1>당신의 결과는?!</h1>
+        <div class="resultname">
+            <p>하얀 비누 거품처럼 맑고 싱그러운 꽃 향기기가 코 끝에 은은하게 감도는 상쾌한 비누향</p>
+        </div>
+        <div id = "resultImg" class="my-3 col-lg-6 col-md-6 col-sm-6 col-12 mx-auto">
+            <img src="../img/img-2.jpg" alt="0" class="img-fluid">
+        </div>
+        <div class="resultDesc">
+            <p>금사빠인 만큼 금방 식기도 한다.<br>친해지기는 쉬우나 겉으로만 친밀도 유지하고 아닌건 아니다.<br>내가 좋아하는 성격의 사람들만 사귀려하고, 내 기준선 넘으면 안본다.<br>사람들 만나는거 피곤한데 만나면 미친듯이 즐겁게 논다.<br>가만히 있는게 제일 싫다! 내가 봐도 주의가 산만한 편^^<br>겉으로는 매우 활발한 모습이지만 실제로는 어두운 면이 있다고 스스로 생각한다.<br>눈치가 빠르고 상대방의 감정을 잘 캐치하는 편이다.<br>순간적인 집중력이 좋아서 벼락치기해도 성적이 잘 나온다.<br>눈치 빠른 데 하기 싫으면 모른 척 한다.</p>
+        </div>
+        <script>
+            function moveHome(){
+                location.href = "/index.html";
+            }
+        </script>
+        <button type="button" class="goHome mt-3 px-3 py-2" onclick="js:moveHome()">나도 참여하기</button>
+    </section>
+</body>
+</html>

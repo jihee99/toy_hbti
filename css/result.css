@@ -32,5 +32,16 @@
 .kakao:hover, .kakao:focus{
     background-color: whitesmoke;
     color: #FEE500;
-  }
-  
+}
+
+.goHome{
+    background-color: rgb(184, 140, 181);
+    border: 0px;
+    border-radius: 20px;
+    font-size: 18px;
+}
+
+.goHome:hover, .goHome:focus{
+    background-color: rgb(138, 98, 135);
+    color: whitesmoke;
+}

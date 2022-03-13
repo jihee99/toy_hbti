@@ -2,8 +2,8 @@ const main = document.querySelector("#main");
 const qna = document.querySelector("#qna");
 const result = document.querySelector("#result");
 
-const endPoint = 12;
-const select = [0,0,0,0,0,0,0,0,0,0,0,0];
+const endPoint = 15;
+const select = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0];
 
 function calResult(){
 
@@ -21,7 +21,7 @@ function setResult(){
     //이미지 명 나중에 맞춰서 수정하기!!!!!!!!!!!!!
     // point랑 key랑 다
     //var imgUrl = 'img/img_' + point + '.jpg';
-    var imgUrl = 'img/img_cotton.jpg';
+    var imgUrl = 'img/img-'+point+'.jpg';
     resultImg.src = imgUrl;
     resultImg.alt = point;
     resultImg.classList.add('img-fluid');

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="jihee">
+        <meta name="keywords" content="향으로 보는 성격 유형">
+        <meta name="description" content="향으로 보는 성격 유형">
+
+        <!-- sns share -->
+        <meta property="og:url" content="" />
+        <meta property="og:title" content="향으로 보는 성격 유형:향BTI" />
+        <meta property="og:type" content="website" />
+        <meta property="og:img" content="../img/share.png" />
+        <meta property="og:description" content="향으로 보는 성격 유형:향BTI" />
+        <!-- favicon -->
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <link rel="apple-touch-icon-precomposed" href="../img/favicon.ico">
+        
+        <title>향으로 보는 성격 유형:향BTI</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../css/default.css">
+        <link rel="stylesheet" href="../css/result.css">
+        <script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
+        <script>
+            Kakao.init('fe3fef096f069adeb71c6b46bd6acc82');
+            Kakao.isInitialized();
+        </script>
+    </head>
+<body>
+    <section id="shareResult" class="mx-auto my-5 py-5 px-3">
+        <h1>당신의 결과는?!</h1>
+        <div class="resultname">
+            <p>라임의 상큼함과 은방울 꽃의 향긋함이 포근하게 감싸는 부드러운 코튼 향</p>
+        </div>
+        <div id = "resultImg" class="my-3 col-lg-6 col-md-6 col-sm-6 col-12 mx-auto">
+            <img src="../img/img-0.jpg" alt="0" class="img-fluid">
+        </div>
+        <div class="resultDesc">
+            <p>즉흥적으로 생기는 일은 최대한 피하려고 노력한다<br>말 많은 사람, 감정적인 사람은 좀 힘들다.<br>사적인 얘기를 나누는 것을 안 좋아하고 남 얘기 들어주는 것도 힘들다.<br>장남/장녀같다는 소리 많이 들어봤다.<br>예의바르고 인성 좋은 사람이 이상형이다.<br>고정관념이 강해 나는 내가 생각해도 꼰대같다.<br>한 번 시작한 일은 끝까지 해낸다.<br>차분하다는 말을 많이 듣는다.<br>사람 많은 곳에 가면 금방 지치고 일할 때도 가능하면 혼자 일하고 싶다.</p>
+        </div>
+        <script>
+            function moveHome(){
+                location.href = "/index.html";
+            }
+        </script>
+        <button type="button" class="goHome mt-3 px-3 py-2" onclick="js:moveHome()">나도 참여하기</button>
+    </section>
+</body>
+</html>
