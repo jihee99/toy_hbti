@@ -5,7 +5,7 @@ function setShare(){
   var resultAlt = resultImg.firstElementChild.alt;
   const shareTitle = "향으로 보는 성격유형 결과"
   const shareDesc = infoList[resultAlt].name;
-  const shareImg = url + 'img/image-' + resultAlt + '.jpg';
+  const shareImg = url + 'img/img-' + resultAlt + '.jpg';
   const shareURL = url + 'page/result-' + resultAlt + '.html';
 
   Kakao.Link.sendDefault({
