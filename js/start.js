@@ -18,9 +18,6 @@ function setResult(){
 
     var resultImg = document.createElement('img');
     const imgDiv = document.querySelector('#resultImg');
-    //이미지 명 나중에 맞춰서 수정하기!!!!!!!!!!!!!
-    // point랑 key랑 다
-    //var imgUrl = 'img/img_' + point + '.jpg';
     var imgUrl = 'img/img-'+point+'.jpg';
     resultImg.src = imgUrl;
     resultImg.alt = point;

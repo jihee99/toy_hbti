@@ -1,4 +1,4 @@
-const url = "https://urperfume.netlify.app/";
+const url = 'https://urperfume.netlify.app/';
 
 function setShare(){
   var resultImg = document.querySelector('#resultImg');
@@ -16,16 +16,15 @@ function setShare(){
       imageUrl: shareImg,
       link: {
         mobileWebUrl: shareURL,
-        WebUrl: shareURL
+        webUrl: shareURL
       },
     },
-
     buttons: [
       {
         title: '결과확인하기',
         link: {
           mobileWebUrl: shareURL,
-          WebUrl: shareURL
+          webUrl: shareURL
         },
       },
     ]
